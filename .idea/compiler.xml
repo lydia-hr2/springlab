@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day02" />
+        <module name="day01" />
+        <module name="day023_ANN" />
+        <module name="spring_day01" />
+        <module name="ws0420" />
+        <module name="day022" />
+        <module name="spring_day011" />
+        <module name="day022_XML" />
+        <module name="ws0418" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day021 (1)" target="11" />
+      <module name="day021 (2)" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

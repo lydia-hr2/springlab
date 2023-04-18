@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springws/ws0418/pom.xml" />
+        <option value="$PROJECT_DIR$/springws/ws0420/pom.xml" />
+        <option value="$PROJECT_DIR$/springlab/day01/pom.xml" />
+        <option value="$PROJECT_DIR$/springlab/day02/pom.xml" />
+        <option value="$PROJECT_DIR$/springlab/day021/pom.xml" />
+        <option value="$PROJECT_DIR$/springlab/day022/pom.xml" />
+        <option value="$PROJECT_DIR$/springlab/day023/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_day01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_day011/pom.xml" />
+        <option value="$PROJECT_DIR$/springlab/day023_ANN/pom.xml" />
+        <option value="$PROJECT_DIR$/springlab/day022_XML/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
