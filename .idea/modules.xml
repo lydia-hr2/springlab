@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springlab/day023_ANN/day023_ANN.iml" filepath="$PROJECT_DIR$/springlab/day023_ANN/day023_ANN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springlab/day01/day01.iml" filepath="$PROJECT_DIR$/springlab/day01/day01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springlab/day02/day02.iml" filepath="$PROJECT_DIR$/springlab/day02/day02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springlab/day021/day021.iml" filepath="$PROJECT_DIR$/springlab/day021/day021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springlab/day022_XML/day022_XML.iml" filepath="$PROJECT_DIR$/springlab/day022_XML/day022_XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring.iml" filepath="$PROJECT_DIR$/.idea/spring.iml" />
     </modules>
   </component>
