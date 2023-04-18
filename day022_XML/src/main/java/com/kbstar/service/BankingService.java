@@ -34,4 +34,19 @@ public class BankingService implements MyService<String, UserDTO> {
     public List<UserDTO> get() {
         return null;
     }
+
+    @Override
+    public void modify(UserDTO userDTO) {
+
+    }
+
+    @Override
+    public UserDTO select(String s) {
+        return null;
+    }
+
+    @Override
+    public List<UserDTO> select() {
+        return null;
+    }
 }

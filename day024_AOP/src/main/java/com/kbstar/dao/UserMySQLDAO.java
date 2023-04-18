@@ -5,26 +5,15 @@ import com.kbstar.frame.MyDao;
 
 import java.util.List;
 
-public class OracleDao implements MyDao<String, UserDTO> {
-
+public class UserMySQLDAO implements MyDao<String, UserDTO> {
     @Override
     public void insert(UserDTO userDTO) {
-        System.out.println("Inserted Oracle:"+userDTO);
+        System.out.println("MySQL Inserted:"+userDTO);
     }
 
     @Override
     public void delete(String s) {
 
-    }
-
-    @Override
-    public UserDTO get(String s) {
-        return null;
-    }
-
-    @Override
-    public List<UserDTO> get() {
-        return null;
     }
 
     @Override

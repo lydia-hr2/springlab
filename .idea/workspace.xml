@@ -4,59 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5ef9c09-4337-46f4-8f8a-19a594df4c69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/src/main/java/com/kbstar/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/src/main/java/com/kbstar/frame/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/src/main/java/com/kbstar/tv/LGTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/src/main/java/com/kbstar/tv/STV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day01/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/main/java/com/kbstar/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/main/java/com/kbstar/frame/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/main/java/com/kbstar/tv/LGTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/main/java/com/kbstar/tv/STV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/day022/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/src/main/java/com/kbstar/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/src/main/java/com/kbstar/app/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/src/main/java/com/kbstar/app/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/src/main/java/com/kbstar/dao/OracleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/src/main/java/com/kbstar/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/src/main/java/com/kbstar/frame/MyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/src/main/java/com/kbstar/frame/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/src/main/java/com/kbstar/service/BankingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day021/src/test/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day023_ANN/src/main/java/com/kbstar/app/UserInsertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day023_ANN/src/main/java/com/kbstar/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day023_ANN/src/main/java/com/kbstar/dao/UserMySQLDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day023_ANN/src/main/java/com/kbstar/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day023_ANN/src/main/java/com/kbstar/frame/MyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day023_ANN/src/main/java/com/kbstar/frame/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day023_ANN/src/main/java/com/kbstar/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day02/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c5ef9c09-4337-46f4-8f8a-19a594df4c69" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/day021" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -74,7 +32,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/spring/springlab/day01/src/main/resources",
+    "last_opened_file_path": "C:/spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +43,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "7cafacadd5772d86615d238e81c86854",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -125,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681777221162</updated>
       <workItem from="1681777222237" duration="4962000" />
+      <workItem from="1681798558676" duration="185000" />
     </task>
     <servers />
   </component>

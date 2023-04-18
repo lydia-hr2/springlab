@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class UserInsertTest {
 
     public static void main(String[] args) {
-        ApplicationContext factory
+        ApplicationContext factory =
                 new ClassPathXmlApplicationContext("spring.xml");
 
         MyService<String, UserDTO> service =
