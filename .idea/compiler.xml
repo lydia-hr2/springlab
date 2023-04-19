@@ -9,7 +9,6 @@
         <module name="day02" />
         <module name="day01" />
         <module name="day023_ANN" />
-        <module name="spring_day02" />
         <module name="spring_day01" />
         <module name="ws0420" />
         <module name="day022" />
@@ -21,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="day021 (1)" target="11" />
       <module name="day021 (2)" target="11" />
+      <module name="spring_day02" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
