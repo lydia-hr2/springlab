@@ -6,16 +6,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @SpringBootApplication
-public class Web03Application {
+public class Web04Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Web03Application.class, args);
+        SpringApplication.run(Web04Application.class, args);
     }
 
     @Bean
     public InternalResourceViewResolver setupViewResolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-        resolver.setPrefix("/WEB-INF/views/");
+        resolver.setPrefix("/views/");
         resolver.setSuffix(".jsp");
         return resolver;
     }
