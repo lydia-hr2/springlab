@@ -1,0 +1,228 @@
+[2023-04-25 09:12:08:7801][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-04-25 09:12:09:8078][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 43 mappings in 'requestMappingHandlerMapping'
+[2023-04-25 09:12:09:8133][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2023-04-25 09:12:09:8155][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-04-25 09:12:45:44785][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-04-25 09:12:45:44786][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2023-04-25 09:12:45:44787][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+[2023-04-25 09:12:45:44787][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+[2023-04-25 09:12:45:44789][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1ae29042
+[2023-04-25 09:12:45:44791][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3f9a8c42
+[2023-04-25 09:12:45:44791][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2023-04-25 09:12:45:44791][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[2023-04-25 09:12:45:44848][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2023-04-25 09:12:45:44870][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#main()
+[2023-04-25 09:12:46:44937][http-nio-80-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-04-25 09:12:46:44937][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {}
+[2023-04-25 09:12:46:44945][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-04-25 09:12:51:50063][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:12:51:50131][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-04-25 09:12:51:50141][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 09:12:51:50174][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:18:137746][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/ajax", parameters={}
+[2023-04-25 09:14:18:137750][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxController#map(Model)
+[2023-04-25 09:14:18:137767][http-nio-80-exec-5] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-04-25 09:14:18:137767][http-nio-80-exec-5] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {left=ajax/left, center=ajax/center}
+[2023-04-25 09:14:18:137769][http-nio-80-exec-5] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-04-25 09:14:19:138749][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:19:138803][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-04-25 09:14:19:138808][http-nio-80-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 09:14:19:138828][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:20:139751][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/ajax/ajax01", parameters={}
+[2023-04-25 09:14:20:139752][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxController#map01(Model)
+[2023-04-25 09:14:20:139756][http-nio-80-exec-7] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-04-25 09:14:20:139758][http-nio-80-exec-7] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {left=ajax/left, center=ajax/ajax01}
+[2023-04-25 09:14:20:139758][http-nio-80-exec-7] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-04-25 09:14:21:140177][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:21:140234][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-04-25 09:14:21:140237][http-nio-80-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-04-25 09:14:21:140246][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:22:141392][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:22:141394][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:22:141474][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:22:141475][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:22 KST 2023]
+[2023-04-25 09:14:22:141527][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:23:142335][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:23:142336][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:23:142337][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:23:142338][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:23 KST 2023]
+[2023-04-25 09:14:23:142341][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:24:143330][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:24:143331][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:24:143332][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:24:143333][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:24 KST 2023]
+[2023-04-25 09:14:24:143335][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:25:144515][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:25:144516][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:25:144517][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:25:144518][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:25 KST 2023]
+[2023-04-25 09:14:25:144522][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:28:147048][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:28:147049][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:28:147051][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:28:147053][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:28 KST 2023]
+[2023-04-25 09:14:28:147056][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:29:148033][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:29:148035][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:29:148036][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:29:148036][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:29 KST 2023]
+[2023-04-25 09:14:29:148040][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:29:148894][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:29:148895][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:29:148897][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:29:148897][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:29 KST 2023]
+[2023-04-25 09:14:29:148899][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:30:149894][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:30:149895][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:30:149896][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:30:149898][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:30 KST 2023]
+[2023-04-25 09:14:30:149901][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:32:150950][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:32:150952][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:32:150955][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:32:150957][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:32 KST 2023]
+[2023-04-25 09:14:32:150963][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:32:151887][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:32:151888][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:32:151889][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:32:151889][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:32 KST 2023]
+[2023-04-25 09:14:32:151890][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:33:152879][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:33:152880][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:33:152881][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:33:152882][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:33 KST 2023]
+[2023-04-25 09:14:33:152883][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:34:153875][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:34:153876][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:34:153877][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:34:153878][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:34 KST 2023]
+[2023-04-25 09:14:34:153879][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:35:154880][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:35:154881][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:35:154883][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:35:154883][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:35 KST 2023]
+[2023-04-25 09:14:35:154885][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:37:156156][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:37:156157][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:37:156158][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:37:156158][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:37 KST 2023]
+[2023-04-25 09:14:37:156160][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:38:156921][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:38:156922][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:38:156923][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:38:156923][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:38 KST 2023]
+[2023-04-25 09:14:38:156925][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:39:158122][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:39:158123][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:39:158126][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:39:158130][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:39 KST 2023]
+[2023-04-25 09:14:39:158131][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:40:159431][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:40:159433][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:40:159439][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:40:159458][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:40 KST 2023]
+[2023-04-25 09:14:40:159464][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:42:160920][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:42:160922][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:42:160923][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:42:160923][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:42 KST 2023]
+[2023-04-25 09:14:42:160925][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:42:161900][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:42:161901][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:42:161902][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:42:161902][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:42 KST 2023]
+[2023-04-25 09:14:42:161904][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:43:162895][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:43:162896][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:43:162897][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:43:162898][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:43 KST 2023]
+[2023-04-25 09:14:43:162899][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:44:163892][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:44:163895][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:44:163898][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:44:163900][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:44 KST 2023]
+[2023-04-25 09:14:44:163906][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:46:165357][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:46:165359][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:46:165360][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:46:165360][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:46 KST 2023]
+[2023-04-25 09:14:46:165362][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:48:167177][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:48:167178][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:48:167179][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:48:167180][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:48 KST 2023]
+[2023-04-25 09:14:48:167182][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:49:167959][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:49:167960][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:49:167961][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:49:167963][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:49 KST 2023]
+[2023-04-25 09:14:49:167965][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:50:169342][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:50:169351][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:50:169354][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:50:169355][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:50 KST 2023]
+[2023-04-25 09:14:50:169357][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:51:170883][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:51:170884][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:51:170886][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:51:170886][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:51 KST 2023]
+[2023-04-25 09:14:51:170888][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:52:171885][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:52:171886][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:52:171887][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:52:171887][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:52 KST 2023]
+[2023-04-25 09:14:52:171889][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:53:172902][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:53:172903][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:53:172904][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:53:172906][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:53 KST 2023]
+[2023-04-25 09:14:53:172908][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:54:173890][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:54:173892][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:54:173894][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:54:173895][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:54 KST 2023]
+[2023-04-25 09:14:54:173899][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:56:175071][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:56:175087][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:56:175088][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:56:175088][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:56 KST 2023]
+[2023-04-25 09:14:56:175091][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:56:175884][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:56:175885][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:56:175885][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:56:175886][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:56 KST 2023]
+[2023-04-25 09:14:56:175887][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:57:176882][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:57:176884][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:57:176884][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:57:176885][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:57 KST 2023]
+[2023-04-25 09:14:57:176887][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:58:177880][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:58:177881][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:58:177883][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:58:177883][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:58 KST 2023]
+[2023-04-25 09:14:58:177886][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:14:59:178888][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:14:59:178889][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:14:59:178890][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:14:59:178891][http-nio-80-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:14:59 KST 2023]
+[2023-04-25 09:14:59:178893][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:15:00:179880][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:15:00:179881][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:15:00:179882][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:15:00:179883][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:15:00 KST 2023]
+[2023-04-25 09:15:00:179885][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:15:01:180878][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:15:01:180880][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:15:01:180880][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:15:01:180881][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:15:01 KST 2023]
+[2023-04-25 09:15:01:180883][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:15:02:181885][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:15:02:181886][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:15:02:181887][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:15:02:181887][http-nio-80-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:15:02 KST 2023]
+[2023-04-25 09:15:02:181889][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-04-25 09:15:03:182881][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/getservertime", parameters={}
+[2023-04-25 09:15:03:182882][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#getservertime()
+[2023-04-25 09:15:03:182883][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-04-25 09:15:03:182883][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Tue Apr 25 09:15:03 KST 2023]
