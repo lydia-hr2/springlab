@@ -59,7 +59,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <div class="checkout__order">
-                                <h4 class="order__title">Your order</h4>
+                                <h4 class="order__title">Your orderMall</h4>
                                 <div class="checkout__order__products">상품 <span>가격</span></div>
                                 <c:set var="total" value="0"/>
                                 <c:set var="qnt" value="0"/>

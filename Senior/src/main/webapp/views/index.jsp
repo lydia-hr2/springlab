@@ -8,6 +8,12 @@
     <meta name="description" content="Male_Fashion Template">
     <meta name="keywords" content="Male_Fashion, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="https://cdn.WebRTC-Experiment.com/getScreenId.js"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-messaging.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>봄생봄사 쇼핑몰</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -36,7 +42,7 @@
 <body>
 <script>
     $(function () {
-        $('#logout').on("click", () => {swal("로그아웃 하시겠습니까"); location.href = "/logout"});
+        $('#logout').on("click", () => {location.href = "/logout"});
     })
 </script>
 <!-- Page Preloder -->
@@ -84,12 +90,14 @@
                         <div class="header__top__links">
                             <c:choose>
                                 <c:when test="${loginmember == null}">
-                                    <a href="/login">로그인</a>
-                                    <a href="/signin">회원가입</a>
+                                    <a href="/login">시니어 로그인</a>
+                                    <a href="/signin">시니어 가입</a>
+                                    <a href="/mate/signin">메이트 가입</a>
+                                    <a href="/mate/login">메이트 로그인</a>
                                 </c:when>
                                 <c:otherwise>
                                     <a href="/chatbot">챗봇문의</a>
-                                    <a href="/review">리뷰</a>
+                                    <a href="/itemReview">리뷰</a>
                                     <a href="/faq">자주하는 질문</a>
                                     <a href="#" id="logout">로그아웃</a>
                                 </c:otherwise>
@@ -117,24 +125,24 @@
                                 <li><a href="/about">회사 정보</a></li>
                                 <c:if test="${loginmember != null}">
                                     <li><a href="/cart/${loginmember.id}">장바구니</a></li>
-                                    <li><a href="/order/${loginmember.id}">주문</a></li>
-                                    <li><a href="/order/confirm/${loginmember.id}">주문내역</a></li>
+                                    <li><a href="/orderMall/${loginmember.id}">주문</a></li>
+                                    <li><a href="/orderMall/confirm/${loginmember.id}">주문내역</a></li>
                                 </c:if>
                                 <li><a href="/blog">블로그</a></li>
                             </ul>
                         </li>
                         <li><a href="/match">매칭</a></li>
                         <li><a href="/shop">몰</a></li>
-                        <li><a href="#">후기</a>
+                        <li><a href="matereviews">후기</a>
                             <ul class="dropdown">
                                 <c:if test="${loginmember != null}">
-                                    <li><a href="/review">후기 작성</a></li>
+                                    <li><a href="/itemReview">후기 작성</a></li>
                                 </c:if>
-                                <li><a href="/reviewall">후기 검색</a></li>
+                                <li><a href="/matereviews">후기 검색</a></li>
                             </ul>
                         </li>
                         <li><a href="/contact">문의</a></li>
-                        <li><a href="/contact">요양소</a></li>
+                        <li><a href="/goldenlife">요양소</a></li>
                     </ul>
                 </nav>
             </div>
@@ -257,6 +265,9 @@
 <script src="/js/mixitup.min.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
 <script src="/js/main.js"></script>
+<script src="/js/rtc.js"></script>
+<script src="/js/rtc1.js"></script>
+<script src="/js/web.js"></script>
 </body>
 
 </html>

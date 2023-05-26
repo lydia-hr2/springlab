@@ -32,7 +32,7 @@
                         <h4>Sign In</h4>
                         <div class="breadcrumb__links">
                             <a href="/">Home</a>
-                            <span>Sign In</span>
+                            <span>시니어 가입</span>
                         </div>
                     </div>
                 </div>
@@ -49,13 +49,13 @@
                         <div class="col-lg-8 col-md-10">
                             <h6 class="coupon__code"><span class="icon_tag_alt"></span> Have no ID? <a href="#">Click
                             here</a> to join us</h6>
-                            <h6 class="checkout__title">Register Form</h6>
+                            <h6 class="checkout__title">시니어 가입</h6>
                             <form id="register_form" name="register_form" action="/signinimpl" method="post">
                             <div class="row">
                                 <div class="col-lg-10">
                                     <div class="checkout__input" >
                                         <p>ID<span>*</span></p>
-                                        <input type="text" id="memberId" name="memberId" placeholder="Enter Email Id">
+                                        <input type="text" id="email" name="email" placeholder="Enter Email Id">
                                     </div>
                                     <div class="checkout__input" >
                                         <p>Name<span>*</span></p>
@@ -68,6 +68,18 @@
                                     <div class="checkout__input" >
                                         <p>Password Check<span>*</span></p>
                                         <input type="password" id="valid_password" placeholder="Enter password ( checking... )">
+                                    </div>
+                                    <div class="checkout__input" >
+                                        <p>생년월일<span>*</span></p>
+                                        <input type="text" id="birth" name="birth" placeholder="생년월일">
+                                    </div>
+                                    <div class="checkout__input" >
+                                        <p>전화번호<span>*</span></p>
+                                        <input type="text" id="tel" name="tel" placeholder="전화번호">
+                                    </div>
+                                    <div class="checkout__input" >
+                                        <p>주소<span>*</span></p>
+                                        <input type="text" id="addr" name="addr" placeholder="주소">
                                     </div>
                                     <div class="checkout__input">
                                             <div class="alert alert-danger" id="alert" style="display: none">

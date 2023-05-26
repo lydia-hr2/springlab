@@ -1,12 +1,11 @@
 package com.kbstar.service;
 
 import com.kbstar.dto.Member;
-import com.kbstar.dto.Reserve;
 import com.kbstar.mapper.MemberMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import javax.validation.Valid;
+
 import java.util.List;
 
 @Service

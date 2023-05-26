@@ -51,7 +51,6 @@
                                 <tr>
                                     <th>고객명</th>
                                     <th>우편번호</th>
-                                    <th>고객주소</th>
                                     <th>전화번호</th>
                                     <th>주문 총 금액</th>
                                     <th>주문 총 개수</th>
@@ -63,7 +62,6 @@
                             <tbody>
                                     <tr>
                                         <td class="cart__close">${loginmember.name}</td>
-                                        <td class="cart__close">${order.zipcode}</td>
                                         <td class="cart__close">${order.addr}</td>
                                         <td class="cart__close">${order.tel}</td>
                                         <c:choose>

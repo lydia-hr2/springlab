@@ -10,17 +10,13 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
     @Value("${imgdir}")
     String imgdir;
-    @Value("${logdir}")
-    String logdir;
-
-    //log파일이 변경되도 바로적용
-    //다른 프로젝트에서도 활용 가능하도록 따로 관리하기 위함
-
+//    @Value("${logdir}")
+//    String logdir;
+//
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/C:/project/uimg/").addResourceLocations(imgdir);
-        registry.addResourceHandler("/C:/project/logs/").addResourceLocations(logdir);
-        //application.properties에서 정의
+        registry.addResourceHandler("/uimg/**").addResourceLocations(imgdir);
+//        registry.addResourceHandler("/logs/**").addResourceLocations(logdir);
     }
 
 }

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aa6f0c2-ea87-47e6-bebf-f11bce40e610" name="Changes" comment="230524" />
+    <list default="true" id="2aa6f0c2-ea87-47e6-bebf-f11bce40e610" name="Changes" comment="230525">
+      <change beforePath="$PROJECT_DIR$/../Senior/src/main/java/com/kbstar/controller/ReviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Senior/src/main/java/com/kbstar/controller/ReviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Senior/src/main/java/com/kbstar/frame/ShopMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Senior/src/main/java/com/kbstar/frame/ShopMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Senior/target/classes/com/kbstar/controller/ReviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Senior/target/classes/com/kbstar/controller/ReviewController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,13 +41,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/spring/web25",
+    "last_opened_file_path": "C:/spring/Senior",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "05515837064ab7a89fb30317e043932f",
+    "spring.configuration.checksum": "5ed331e64f897ff3fe1eda73e5fd7d62",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,6 +102,7 @@
       <updated>1684891931892</updated>
       <workItem from="1684891932953" duration="1675000" />
       <workItem from="1684918042829" duration="656000" />
+      <workItem from="1684978674730" duration="2223000" />
     </task>
     <task id="LOCAL-00001" summary="230524">
       <created>1684918342212</created>
@@ -106,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684918342212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="230525">
+      <created>1684978919943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684978919943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +129,7 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="230524" />
-    <option name="LAST_COMMIT_MESSAGE" value="230524" />
+    <MESSAGE value="230525" />
+    <option name="LAST_COMMIT_MESSAGE" value="230525" />
   </component>
 </project>
